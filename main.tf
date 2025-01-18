@@ -68,3 +68,5 @@ resource "aws_route_table_association" "public-subnet-association" {
   subnet_id = aws_subnet.yk_subnet.id
   route_table_id = aws_route_table.yk-public.id
 }
+
+# Test comment for github actions
